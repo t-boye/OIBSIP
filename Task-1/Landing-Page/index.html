@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head> 
+<body>
+   <!-- Main Navigation -->
+   <nav class="main-nav bg-gray-800 fixed top-0 left-0 w-full z-10">
+      <div class="container mx-auto px-2 ml-10 py-3 flex items-center justify-between">
+        <a href="#" class="navbar-brand ml-10  text-white text-2xl font-bold">Landing Page</a>
+        <button id="menu-button" class="md:hidden">
+          <svg class="w-6 h-6 text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+        <ul class="nav-links hidden md:flex items-center space-x-4">
+         <li>
+           <a href="#about" class="text-white hover:text-gray-300 hover:border-b-2 border-transparent hover:border-blue-500">About</a>
+         </li>
+         <li>
+           <a href="#service" class="text-white hover:text-blue-300 hover:border-b-2 border-transparent hover:border-blue-500">Services</a>
+         </li>
+         <li>
+           <a href="#reserve" class="text-white hover:text-gray-300 hover:border-b-2 border-transparent hover:border-blue-500">Reservations</a>
+         </li>
+         <li>
+           <a href="#contact" class="text-white hover:text-gray-300 hover:border-b-2 border-transparent hover:border-blue-500">Contact</a>
+         </li>
+       </ul>
+       
+      </div>
+    </nav>
+    
+
+   <section class="home">
+     <div class="description">
+       <h1 class="title">
+         <span class="gradient-text">Grow Professionally</span> with the Best
+       </h1>
+       <p class="paragraph">
+         In a world filled with opportunities, having a mentor can make all the
+         difference. Explore why people turn to this invaluable resource to
+         unlock their potential.
+       </p>
+       <form id="form" autocomplete="off">
+         <input
+           type="email"
+           id="email-id"
+           name="email_address"
+           aria-label="email adress"
+           placeholder=""
+           required
+           oninput="checkEmpty()" />
+         <button type="submit" class="btn" aria-label="submit">
+           <span>Subscribe</span>
+           <ion-icon name="arrow-forward-outline"></ion-icon>
+         </button>
+       </form>
+     </div>
+
+     <div class="users-color-container">
+       <span class="item" style="--i: 1"></span>
+       <img
+         class="item"
+         src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/274f29ce-0d3f-4ac2-a2aa-f9b7bd188b2a"
+         style="--i: 2"
+         alt="" />
+       <span class="item" style="--i: 3"></span>
+       <img
+         class="item"
+         src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/b8a14493-3d9f-4b9b-b93a-56d0bc7243e9"
+         style="--i: 4"
+         alt="" />
+
+       <img
+         class="item"
+         src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/03e51e1e-9750-45a5-b75e-a1e341d4562a"
+         style="--i: 10"
+         alt="" />
+       <span class="item" style="--i: 11"></span>
+       <img class="item" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5eb50f89-3e5a-480e-860c-8d40d3ba9ffe" style="--i: 12" alt="" />
+       <span class="item" style="--i: 5"></span>
+
+       <span class="item" style="--i: 9"></span>
+       <img class="item" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/86c71a79-2efe-4567-8665-b1e5a1fd9735" style="--i: 8" alt="" />
+       <span class="item" style="--i: 7"></span>
+       <img class="item" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/97ef9643-5202-41aa-80f0-ceeabccdd099" style="--i: 6" alt="" />
+     </div>
+   </section>
+   <script src="index.js"></script>
+ </body>
+</html>
