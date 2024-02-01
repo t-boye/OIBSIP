@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing Page">
+    <meta name="keywords" content="land Page, OIBSIP, Task 1">
+    <meta name="author" content="Emmanuel Tete Boye">
+    <meta name="robots" content="index, follow">
+    <!--styling up-->
     <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
@@ -10,8 +15,8 @@
 <body>
    <!-- Main Navigation -->
    <nav class="main-nav bg-gray-800 fixed top-0 left-0 w-full z-10">
-      <div class="container mx-auto px-2 ml-10 py-3 flex items-center justify-between">
-        <a href="#" class="navbar-brand ml-10  text-white text-2xl font-bold">Landing Page</a>
+      <div class="container mx-auto px-1 ml-10 py-3 flex items-center justify-between">
+        <a href="#" class="gradient-logo navbar-brand ml-10  text-white text-2xl font-bold" ><span class= "gradient-logo ml-11">Logo</span></a>
         <button id="menu-button" class="md:hidden">
           <svg class="w-6 h-6 text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
             <path d="M4 6h16M4 12h16M4 18h16"></path>
@@ -35,11 +40,10 @@
       </div>
     </nav>
     
-
    <section class="home">
      <div class="description">
        <h1 class="title">
-         <span class="gradient-text">Grow Professionally</span> with the Best
+         <span class="gradient-text">Boost your skills with the Best</span><br>
        </h1>
        <p class="paragraph">
          In a world filled with opportunities, having a mentor can make all the
@@ -66,31 +70,134 @@
        <span class="item" style="--i: 1"></span>
        <img
          class="item"
-         src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/274f29ce-0d3f-4ac2-a2aa-f9b7bd188b2a"
+         src="https://i.postimg.cc/GmZksMcn/Nubank.jpg"
          style="--i: 2"
          alt="" />
        <span class="item" style="--i: 3"></span>
        <img
          class="item"
-         src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/b8a14493-3d9f-4b9b-b93a-56d0bc7243e9"
+         src="https://i.postimg.cc/pTpKnDKF/my-profile-pic.png"
          style="--i: 4"
          alt="" />
 
        <img
          class="item"
-         src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/03e51e1e-9750-45a5-b75e-a1e341d4562a"
+         src="https://i.postimg.cc/DzKx3Ykw/my-official-pic-with-bg.png"
          style="--i: 10"
          alt="" />
        <span class="item" style="--i: 11"></span>
-       <img class="item" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5eb50f89-3e5a-480e-860c-8d40d3ba9ffe" style="--i: 12" alt="" />
+       <img class="item" src="https://i.postimg.cc/gcDQqhXT/happy-woman.jpg" style="--i: 12" alt="" />
        <span class="item" style="--i: 5"></span>
 
        <span class="item" style="--i: 9"></span>
-       <img class="item" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/86c71a79-2efe-4567-8665-b1e5a1fd9735" style="--i: 8" alt="" />
+       <img class="item" src="https://i.postimg.cc/Sxk0pp2J/big-smile.jpg" style="--i: 8" alt="" />
        <span class="item" style="--i: 7"></span>
-       <img class="item" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/97ef9643-5202-41aa-80f0-ceeabccdd099" style="--i: 6" alt="" />
+       <img class="item" src="https://i.postimg.cc/rpKpGcwD/Free-Photo-Medium-shot-smiley-man-having-fun.jpg" style="--i: 6" alt="" />
      </div>
    </section>
+   <!-- About Section -->
+   <div class="About-Section" id="about">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin: 20px;">
+      <img src="https://i.postimg.cc/154yWjxj/team-work.jpg" alt="team-work">
+          <div class="text-left">
+            <h2 class="text-3xl font-bold mb-4">Unleash Your Potential with Mentorship</h2>
+            <p class="text-gray-600 mb-4">Stuck in a rut? Find your perfect mentor and unlock your true potential! Explore:</p>
+            <ul class="list-disc ml-4 mb-4">
+              <li>Expert Mentors: Connect with experienced professionals across diverse fields.</li>
+              <li>Personalized Matching: Find a mentor who aligns with your goals and personality.</li>
+              <li>Supportive Community: Learn, grow, and celebrate with fellow learners.</li>
+            </ul>
+            <div class="inline-flex">
+              <button class="px-4 py-1 bg-blue-500 text-white font-bold rounded-md hover:bg-blue-700">Get started today!</button>
+              <p class="ml-4 text-gray-600 ">and embark on your transformative journey!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Service Section-->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 px-4 py-8">
+    <div class="flex flex-col items-center justify-center bg-gray-100 rounded-lg p-4 hover:shadow-md">
+      <img src="image1.jpg" alt="Service 1" class="w-24 h-24 mx-auto mb-4 rounded-full">
+      <h3 class="text-xl font-bold text-white mb-2">Service 1 Title</h3>
+      <p class="text-gray-600 text-sm">Brief description of service 1 goes here.</p>
+    </div>
+    <div class="flex flex-col items-center justify-center bg-gray-100 rounded-lg p-4 hover:shadow-md">
+      <img src="image2.jpg" alt="Service 2" class="w-24 h-24 mx-auto mb-4 rounded-full">
+      <h3 class="text-xl font-bold text-white mb-2">Service 2 Title</h3>
+      <p class="text-gray-600 text-sm">Brief description of service 2 goes here.</p>
+    </div>
+    <div class="flex flex-col items-center justify-center bg-gray-100 rounded-lg p-4 hover:shadow-md">
+      <img src="image3.jpg" alt="Service 3" class="w-24 h-24 mx-auto mb-4 rounded-full">
+      <h3 class="text-xl font-bold text-white mb-2">Service 3 Title</h3>
+      <p class="text-gray-600 text-sm">Brief description of service 3 goes here.</p>
+    </div>
+  </div>
+  <!--Contact Section-->
+  <div class="contact flex flex-col md:flex-row items-center gap-8 ml-4 my-16">
+    <div class="text-wrapper w-full md:w-1/2">
+      <h2 class="heading-primary text-5xl ml-4 mb-2">Get in Touch</h2>
+      <p class="text-gray-600 mb-4">Have questions or want to learn more? Reach out to us and we'll be happy to connect!</p>
+      <form class="form-container rounded-lg shadow-md p-8">
+        <div class="mb-4">
+          <label for="name" class="block text-white font-bold mb-2">Name</label>
+          <input type="text" id="name" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-300">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-white font-bold mb-2">Email</label>
+          <input type="email" id="email" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-300">
+        </div>
+        <div class="mb-6">
+          <label for="message" class="block text-white font-bold mb-2">Message</label>
+          <textarea id="message" class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" rows="4"></textarea>
+        </div>
+        <div class="flex items-center justify-center mt-6"> 
+        <button type="submit" class="btn w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 ">Send Message</button>
+        </div>
+      </form>
+    </div>
+    <img src="https://i.postimg.cc/Pxcd52Wx/contant-us.jpg" alt="get-in-touch" class="">
+  </div>
+  
+  
+   <!--Testimonials Section-->
+   <section class="bg-gray-100 py-20">
+    <div class="container mx-auto px-4 flex flex-col items-center space-y-10">
+      <h2 class="text-3xl font-bold text-center text-gray-800">Testimonials</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+   
+        <div class="card p-6 bg-white rounded-lg shadow-md">
+          <img src="https://i.postimg.cc/gcDQqhXT/happy-woman.jpg" alt="Sarah testimonial" class="card-image mb-4 mx-auto rounded-full w-20 h-20">
+          <p class="text-gray-400">"Before using [Your product/service], I felt overwhelmed and stuck in my business. It was hard to keep track of everything and I wasn't seeing the results I wanted. But since starting with you, my business has been transformed! I'm now saving hours every week, I'm more organized, and I'm finally closing more deals. Thank you for giving me the tools and support I needed to succeed!"</p>
+          <p class="text-gray-500 font-bold pb-4">- Sarah, Entrepreneur</p>
+        </div>
+   
+        <div class="card p-6 bg-white rounded-lg shadow-md">
+          <img src="https://i.postimg.cc/Sxk0pp2J/big-smile.jpg" alt="David testimonial" class="card-image mb-4 mx-auto rounded-full w-20 h-20">
+          <p class="text-gray-400">"We were struggling to engage our audience and generate leads through social media. But after working with your team, we've seen a drastic increase in engagement and website traffic. You helped us develop a clear strategy, create high-quality content, and reach the right people. Now, social media is one of our most valuable marketing channels. We couldn't be happier with the results!"</p>
+          <p class="text-gray-500 font-bold pb-4">- David, Marketing Manager</p>
+        </div>
+   
+        <div class="card p-6 bg-white rounded-lg shadow-md">
+          <img src="https://i.postimg.cc/pTpKnDKF/my-profile-pic.png" alt="John Testimonial" class="card-image mb-4 mx-auto rounded-full w-20 h-20">
+          <p class="text-gray-400">"Learning [topic] was always a challenge for me. Traditional methods just didn't click. But your interactive platform made learning fun and engaging. I was able to learn at my own pace, understand complex concepts, and test my knowledge with interactive quizzes. Thanks to your platform, I finally mastered the subject and got the grade I was aiming for!"</p>
+          <p class="text-gray-500 font-bold">- Emmanuel Tete, Student</p>
+        </div>
+      </div>
+    </div>
+   </section>
+   
+   <!--Footer Section-->
+     <footer class="bg-gray-900 text-white text-center py-8">
+    <p>© 2024 Company Name. All rights reserved.</p>
+    <ul class="flex justify-center gap-4 mt-4">
+      <li><a href="#" class="hover:text-gray-300">Privacy Policy</a></li>
+      <li><a href="#" class="hover:text-gray-300">Terms of Service</a></li>
+    </ul>
+  </footer>
+  
    <script src="index.js"></script>
  </body>
 </html>
