@@ -248,25 +248,25 @@ input[type="email"]:focus {
   background: #07182E;
   position: relative;
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  justify-content: center; /* Center elements horizontally */
-  align-items: center; /* Center elements vertically */
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
   overflow: hidden;
   border-radius: 20px;
 }
 .card-image {
-  width: 100px; /* Adjust image width as needed */
-  height: 100px; /* Adjust image height as needed */
-  border-radius: 50%; /* Optional for circular image */
-  margin-bottom: 20px; /* Add space between image and text */
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  margin-bottom: 20px; 
   flex-shrink: 0; 
-  z-index: 1;/* Prevent image from shrinking excessively */
+  z-index: 1;
 }
 .card p {
   z-index: 1;
   color: white;
-  font-size: 18px; /* Slightly smaller font size for better fit */
-  line-height: 1.5; /* Adjust line spacing for readability */
+  font-size: 18px; 
+  line-height: 1.5; 
   overflow-wrap: break-word;
   
 }
@@ -299,12 +299,13 @@ input[type="email"]:focus {
   inset: 5px;
   border-radius: 15px;
 }  
+
 /*About Section*/
 .About-Section {
   background-color: #dbd8d8;
-  padding: 40px; /* Add padding for visual breathing space */
-  border-radius: 10px; /* Soften the edges for a modern look */
-  text-align: center; /* Center-align text elements for balance */
+  padding: 40px; 
+  border-radius: 10px;
+  text-align: center; 
 }
 
 .About-Section img {
@@ -318,17 +319,17 @@ input[type="email"]:focus {
 
 .About-Section h2 {
   font-size: 24px; 
-  font-weight: 700; /* Bolder font weight for visual hierarchy */
-  margin-bottom: 15px; /* Add spacing between heading and paragraph */
+  font-weight: 700; 
+  margin-bottom: 15px;
 }
 
 .About-Section p {
-  font-size: 16px; /* Set a comfortable reading font size */
-  line-height: 1.5; /* Increase line height for better readability */
-  color: #666; /* Darker text color for better contrast */
+  font-size: 16px; 
+  line-height: 1.5; 
+  color: #666; 
 }
 
-/*     */
+/* Contact /section    */
 
 .contact img {
   width: 500px; 
@@ -339,9 +340,9 @@ input[type="email"]:focus {
 }
 .contact {
   background-color: #dbd8d8;
-  padding: 40px; /* Add padding for visual breathing space */
-  border-radius: 10px; /* Soften the edges for a modern look */
-  text-align: center; /* Center-align text elements for balance */
+  padding: 40px; 
+  border-radius: 10px; 
+  text-align: center; 
 }
 .contact input{
   border-color: #c7d1df;
@@ -350,8 +351,8 @@ input[type="email"]:focus {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
   font-size: 24px; 
-  font-weight: 700; /* Bolder font weight for visual hierarchy */
-  margin-bottom: 15px; /* Add spacing between heading and paragraph */
+  font-weight: 700;
+  margin-bottom: 15px; 
 }
 .cotact p {
   font-family:  Georgia, Times, 'Times New Roman', serif;
@@ -360,9 +361,9 @@ input[type="email"]:focus {
 }
 
 .contact p {
-  font-size: 16px; /* Set a comfortable reading font size */
-  line-height: 1.5; /* Increase line height for better readability */
-  color: #666; /* Darker text color for better contrast */
+  font-size: 16px;
+  line-height: 1.5; 
+  color: #666; 
 }
 
 .form-container{
