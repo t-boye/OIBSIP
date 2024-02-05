@@ -124,13 +124,13 @@
  }
  
  .footer p {
-	color: #666; /* Adjust text color as needed */
+	color: #666;
  }
  
  @media (max-width: 768px) {
 	/* Styles for smaller screens */
 	.footer p {
-	  font-size: 0.8rem; /* Smaller font size on mobile */
+	  font-size: 0.8rem; 
 	}
  }
  
