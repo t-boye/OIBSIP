@@ -1,14 +1,7 @@
 /*custom font*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-/*basic reset*/
-* {margin: 0; padding: 0;}
 
-.temp-body {
-	height: 100%;
-	background: 
-		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
-}
 
 /*form styles*/
 #msform {
@@ -112,18 +105,32 @@
 	position: absolute;
 	left: -50%;
 	top: 9px;
-	z-index: -1; /*put it behind the numbers*/
+	z-index: -1; 
 }
 #progressbar li:first-child:after {
-	/*connector not needed before the first step*/
 	content: none; 
 }
-/*marking active/completed steps green*/
-/*The number of the step and the connector before it = green*/
+
 #progressbar li.active:before,  #progressbar li.active:after{
 	background: #27AE60;
 	color: white;
 }
 
 
-
+.footer {
+	padding: 16px;
+	text-align: center;
+	background-color: rgb(171, 226, 171); 
+ }
+ 
+ .footer p {
+	color: #666; /* Adjust text color as needed */
+ }
+ 
+ @media (max-width: 768px) {
+	/* Styles for smaller screens */
+	.footer p {
+	  font-size: 0.8rem; /* Smaller font size on mobile */
+	}
+ }
+ 

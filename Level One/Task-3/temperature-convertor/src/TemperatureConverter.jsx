@@ -69,6 +69,15 @@ function TemperatureConverter() {
 
         </fieldset>
       </div>
+       <footer className="footer flex flex-col items-center p-4 text-xs md:text-base text-gray-600">
+         <p className="flex items-center gap-2">
+           Developed by Emmanuel Tete Boye <a href="https://www.linkedin.com/in/tboyeofficial/" className="hover:text-blue-500">
+          @tboye.tech
+        </a> &nbsp;
+        <span className="text-gray-400">&copy; 2024</span> &nbsp;
+      </p>
+      </footer>
+
     </div>
   );
 }

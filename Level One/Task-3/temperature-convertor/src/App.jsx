@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <TemperatureConverter />
-    </>
+     </>
   )
 }
 export default App
